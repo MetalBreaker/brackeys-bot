@@ -67,6 +67,7 @@ namespace BrackeysBot
                 .AddSingleton(Data.Cooldowns)
                 .AddSingleton(Data.Rules)
                 .AddSingleton(Data.UnityDocs)
+                .AddSingleton(Data.Warns)
 
                 .AddSingleton(_leaderboardNavigator)
 
